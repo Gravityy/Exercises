@@ -12,7 +12,7 @@ int main(int argc, char *argv[]) {
 		if(control == 0)
 			break;
 		array[i] = control;	
-    size++;	 
+    		size++;	 
 		array = (int*)realloc(array, sizeof(int)*size);
 		i++;
 	}while(1);
